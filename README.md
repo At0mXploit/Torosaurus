@@ -13,13 +13,14 @@ Cloud Infrastructure using AWS and Terraform to deploy a Node.js application wit
 4. The application interacts with **Amazon S3** for uploading or retrieving files.
 5. The whole setup runs within the default **VPC**, ensuring isolation and secure access to resources.
 
-## Config
+## Config:
 
-1. Add the Node Js the directory:
+Clone the repo.
+
+1. Add the Node Js the directory then:
 
     ```bash
-    cd project
-    
+    cd terraform
     ```
 2. Initialize the terraform project
 
@@ -33,5 +34,10 @@ Cloud Infrastructure using AWS and Terraform to deploy a Node.js application wit
     ```bash
     terraform apply
     ```
+
+Some Notes on Terraform are in [start](./start), [state](./state), [vars-and-outputs](./vars-and-outputs) and [modules](./modules).
+
+---
+
 
 ---
