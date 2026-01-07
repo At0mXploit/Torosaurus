@@ -9,8 +9,8 @@ resource "aws_instance" "tf_server" {
                                 #!/bin/bash
 
                                 # Git clone 
-                                git clone https://github.com/At0mXploit /home/ubuntu/nodejs-mysql
-                                cd /home/ubuntu/nodejs-mysql
+                                git clone https://github.com/At0mXploit/Torosaurus.git /home/ubuntu/Torosaurus
+                                cd /home/ubuntu/Torosaurus/nodejs-mysql
 
                                 # install nodejs
                                 sudo apt update -y
